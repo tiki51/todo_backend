@@ -3,6 +3,7 @@ class CreateTodos < ActiveRecord::Migration[6.1]
     create_table :todos do |t|
       t.string :title
       t.string :message
+      t.string :status
 
       t.timestamps
     end
